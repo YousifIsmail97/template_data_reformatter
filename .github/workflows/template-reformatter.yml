@@ -23,7 +23,7 @@ jobs:
 
       - name: Run the Excel transformation script
         run: |
-          python template-column.py
+          python .\template-column.py
 
       - name: Upload transformed Excel file as artifact
         uses: actions/upload-artifact@v3
