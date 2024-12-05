@@ -30,3 +30,9 @@ jobs:
         with:
           name: transformed-excel-file
           path: transformed_output.xlsx
+          
+      - name: Upload transformed Excel file as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: transformed-excel-file
+          path: transformed_output.xlsx
